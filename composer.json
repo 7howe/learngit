@@ -1,0 +1,14 @@
+{
+	"require": {
+		"noahbuscher/macaw": "dev-master",
+		"illuminate/database": "*",
+		"xiaoler/blade": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/controller",
+			"app/models",
+			"assists"
+		]
+	}
+}
